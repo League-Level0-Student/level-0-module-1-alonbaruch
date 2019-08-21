@@ -29,13 +29,13 @@ public class RobotInSpace implements KeyEventDispatcher {
 		// 2. Print out the keyPressed variable and write down the numbers for
 		// each arrow key
 System.out.println(keyPressed);
-		// 3. If the up arrow is pressed, move the Robot up the screen.
+		
 int up = 38;
 int down = 40;
 int left = 37;
 int right = 39;
 
-		// 4. If the down arrow is pressed, move the Robot down.
+		
 if(keyPressed==up) {rob.setAngle(0);
 rob.microMove(2);}
 if(keyPressed==down) {rob.setAngle(180);
